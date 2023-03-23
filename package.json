@@ -12,6 +12,11 @@
     "TTsdzb <ttsdzb@outlook.com>"
   ],
   "license": "MIT",
+  "homepage": "https://github.com/TTsdzb/koishi-plugin-long",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TTsdzb/koishi-plugin-long.git"
+  },
   "scripts": {},
   "keywords": [
     "chatbot",
