@@ -1,0 +1,41 @@
+{
+  "name": "koishi-plugin-long",
+  "description": "提供一个生成龙图的指令。",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "contributors": [
+    "TTsdzb <ttsdzb@outlook.com>"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "image"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.11.9"
+  },
+  "devDependencies": {
+    "koishi-plugin-puppeteer": "^3.4.11"
+  },
+  "koishi": {
+    "description": {
+      "zh": "提供一个生成龙图的指令。"
+    },
+    "service": {
+      "required": [
+        "puppeteer"
+      ]
+    },
+    "locales": [
+      "zh"
+    ]
+  }
+}
