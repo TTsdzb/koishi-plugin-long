@@ -4,4 +4,6 @@
 
 提供一个生成龙图的指令。
 
+![long](example.png)
+
 在 Koishi 中安装该插件即可。
