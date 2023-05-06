@@ -13,19 +13,19 @@ export function apply(ctx: Context) {
   ctx.command("龙 <text:text>", "生成一张龙图").action((_, text) => {
     return (
       <html>
-        <img src="https://img1.imgtp.com/2023/03/23/n8qbeFsv.png" />
-        <p
-          style={{
-            position: "absolute",
-            top: "180px",
-            width: "300px",
-            "text-align": "center",
-            "font-size": "xx-large",
-            "font-family": "sans-serif",
-          }}
-        >
-          {text}
-        </p>
+        <div style={{ width: "300px" }}>
+          <img src="https://img1.imgtp.com/2023/05/06/Zr0nuSBr.png" />
+          <p
+            style={{
+              margin: 0,
+              "text-align": "center",
+              "font-size": "xx-large",
+              "font-family": "sans-serif",
+            }}
+          >
+            {text}
+          </p>
+        </div>
       </html>
     );
   });
